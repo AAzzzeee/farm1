@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = ['Your ID']
+const myid = ['424260906046717962']
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -55,10 +55,10 @@ client24.login(process.env.TOKEN24);
 
 
 client.on('message', message => {
-  if (message.content === '$d') {
+  if (message.content === '+d') {
 message.channel.send('#daily')
   }
-  if(message.content === '$c'){
+  if(message.content === '+c'){
 message.channel.send('#credits')
   }
   if(message.content.startsWith("$s")) {
